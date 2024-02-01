@@ -2,7 +2,7 @@
   "name": "passwordchecker",
   "version": "1.0.0",
   "description": "",
-  "main": "dist/PasswordChecker.js",
+  "main": "PasswordChecker.js",
   "type": "module",
   "scripts": {
     "test": "node --test",
