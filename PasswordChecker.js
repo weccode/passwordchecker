@@ -19,6 +19,12 @@ export function checkPassword(password){
 
 
 
+/**
+ * Checks if a password meets certain criteria.
+ * 
+ * @param {string} password - The password to be checked.
+ * @returns {string} - The validation result message.
+ */
 export function checkPasswordWithoutRegEx(password){
     if(password.length < 8){
         return "Password must be at least 8 characters long";
