@@ -2,12 +2,16 @@
   "name": "passwordchecker",
   "version": "1.0.0",
   "description": "",
-  "main": "PasswordChecker.js",
+  "main": "dist/PasswordChecker.js",
   "type": "module",
   "scripts": {
-    "test": "node --test"
+    "test": "node --test",
+    "start": "tsc && node ./dist/PasswordChecker.js"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  }
 }
